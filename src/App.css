@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt:400,800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,11 @@ html, body, #root {
 }
 
 body {
-  background: #000 url('./assets/img/backgound.jpg') no-repeat;
+  background: #000 url('./assets/backgound.jpg') no-repeat;
   background-size: cover;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body, input, button {
+  font-family: 'Rokkitt', 'Times New Roman', Times, serif;
 }
