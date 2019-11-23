@@ -109,3 +109,9 @@ body, input, button, textarea {
   padding: 15px;
   resize: none;
 }
+
+.registerType {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 0 0 15px;
+}
