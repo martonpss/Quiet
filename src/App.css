@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Rokkitt:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 * {
   margin: 0;
@@ -20,4 +21,53 @@ body {
 body, input, button {
   font-family: 'Rokkitt', 'Times New Roman', Times, serif;
   font-size: 14px;
+}
+
+.container {
+  margin: 80px auto 0;
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  background: #FFF;
+  margin-top: 50px;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.content > p {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.content button.btn {
+  border: 0;
+  border-radius: 2px;
+  width: 100%;
+  height: 42px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #BA76ED;
+  color: #FFF;
+  cursor: pointer;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.content button.btn:hover {
+  background: #AB6AE2;
+}
+
+#btnDenunciar, #btnRegistrar {
+  width: 45%;
+  height: 42px;
+  padding: 0 20px;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
 }
