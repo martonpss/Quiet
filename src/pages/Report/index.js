@@ -7,7 +7,7 @@ export default function Report() {
 
 		/*
 			ATENÇÃO!
-			Os valores passados devem ser o título, descrição e geolocalização.
+			Os valores passados devem ser o título, descrição (opcional) e geolocalização.
 			O usuário só pode fazer a submissão a cada certo intervalo de tempo.
 		*/
 
