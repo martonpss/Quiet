@@ -8,3 +8,8 @@
 html, body, #root {
   min-height: 100%;
 }
+
+body {
+  background: #000 url('./assets/img/backgound.jpg') no-repeat;
+  background-size: cover;
+}
