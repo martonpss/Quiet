@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import logo from './assets/logo.svg';
+import mapPreview from './assets/map-preview.jpg';
 
 function App() {
   return (
@@ -12,11 +13,17 @@ function App() {
 
       <div className="content">
         <p>
-          Nossa missão é <strong>reduzir</strong> os conflitos causados pela <strong>poluição sonora</strong>
+          Olá, somos a <strong>quiet</strong>! Nossa missão é <strong>reduzir</strong> os conflitos causados pela <strong>poluição sonora</strong>.
         </p>
 
-        <button className="btn" id="btnDenunciar">Denunciar</button>
-        <button className="btn" id="btnRegistrar">Registrar evento</button>
+        <div className="mapContainer">
+          <img src={mapPreview} id="map" alt="Mapa"></img>
+        </div>
+        
+        <div className="buttonsHome">
+          <button className="btn">Denunciar</button>
+          <button className="btn">Registrar evento</button>
+        </div>
       </div>
 
 
