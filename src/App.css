@@ -18,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased !important;
 }
 
-body, input, button {
+body, input, button, textarea {
   font-family: 'Rokkitt', 'Times New Roman', Times, serif;
   font-size: 14px;
 }
@@ -56,13 +56,8 @@ body, input, button {
   margin-bottom: 30px;
 }
 
-.buttonsHome {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-}
 
-.buttonsHome button.btn {
+.content button.btn {
   border: 0;
   border-radius: 2px;
   width: 100%;
@@ -76,6 +71,41 @@ body, input, button {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+.buttonsHome {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+
 .buttonsHome button.btn:hover {
   background: #AB6AE2;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content form label {
+  font-size: 14px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.content form input, .content form textarea {
+  margin-bottom: 20px;
+  border: 1px solid #DDD;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.content form textarea {
+  height: 15vh;
+  padding: 15px;
+  resize: none;
 }
