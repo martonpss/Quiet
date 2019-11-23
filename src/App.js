@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 
 import logo from './assets/logo.svg';
-import mapPreview from './assets/map-preview.jpg';
+
+import Routes from './routes';
+
 
 function App() {
   return (
@@ -12,20 +14,8 @@ function App() {
       <img src={logo} alt="Logo da quiet" />
 
       <div className="content">
-        <p>
-          Olá, somos a <strong>quiet</strong>! Nossa missão é <strong>reduzir</strong> os conflitos causados pela <strong>poluição sonora</strong>.
-        </p>
-
-        <div className="mapContainer">
-          <img src={mapPreview} id="map" alt="Mapa"></img>
-        </div>
-        
-        <div className="buttonsHome">
-          <button className="btn">Denunciar</button>
-          <button className="btn">Registrar evento</button>
-        </div>
+        <Routes />
       </div>
-
 
     </div>
 
