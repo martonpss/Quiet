@@ -3,7 +3,16 @@ import React from 'react';
 import mapPreview from '../../assets/map-preview.jpg';
 
 
-export default function Home() {
+export default function Home({ history }) {
+
+	function report() {
+		history.push('/report');
+	}
+
+	function register() {
+		history.push('/register');
+	}
+
 	return (
 		<>
 			<p>
@@ -15,8 +24,8 @@ export default function Home() {
 			</div>
 			
 			<div className="buttonsHome">
-				<button className="btn">Denunciar</button>
-				<button className="btn">Registrar evento</button>
+				<button className="btn" onClick={report}>Denunciar</button>
+				<button className="btn" onClick={register}>Registrar evento</button>
 			</div>
 		</>
 	);
