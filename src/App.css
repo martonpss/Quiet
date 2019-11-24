@@ -78,7 +78,7 @@ body, input, button, textarea {
 }
 
 
-.buttonsHome button.btn:hover {
+button.btn:hover {
   background: #AB6AE2;
 }
 
