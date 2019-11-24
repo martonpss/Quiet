@@ -25,12 +25,16 @@ export default function Report() {
 					type="text"
 					id="reportTitle"
 					placeholder="Descrição breve"
+					maxLength="50"
+					pattern=".{5,}"
+					required
 				/>
 
 				<label htmlFor="reportDescription">DESCRIÇÃO</label>
 				<textarea
 					id="reportDescription"
 					placeholder="Descrição detalhada"
+					maxLength="500"
 				/>
 
 				<button type="submit" className="btn">Enviar</button>
