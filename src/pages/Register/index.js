@@ -59,7 +59,7 @@ export default function Register() {
 
 				<label htmlFor="registerContact">CONTATO *</label>
 				<InputMask
-					mask="+5\5 99 99999 9999"
+					mask="+55 99 99999 9999"
 					maskChar={null}
 					placeholder="Número do Telegram"
 					pattern=".{17,}"
