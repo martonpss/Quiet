@@ -111,7 +111,9 @@ button.btn:hover {
 }
 
 .registerType {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
   padding: 0 0 15px;
+}
+
+#publicOrPrivate {
+  margin-left: 10px;
 }

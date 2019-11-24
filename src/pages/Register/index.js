@@ -26,7 +26,7 @@ export default function Register() {
 
 				<div className="registerType">
 					<label htmlFor="registerType">TIPO DO EVENTO</label>
-					<select>
+					<select id="publicOrPrivate">
 						<option selected value="public">Público</option>
 						<option value="private">Privado</option>
 					</select>
