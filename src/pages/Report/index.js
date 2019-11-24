@@ -17,7 +17,7 @@ export default function Report() {
 	return (
 		<>
 			<p>
-				Qual é sua queixa?
+				Qual é a sua queixa?
 			</p>
 			<form onSubmit={handleSubmit}>
 				<label htmlFor="reportTitle">TÍTULO *</label>

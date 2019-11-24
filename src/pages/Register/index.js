@@ -20,7 +20,7 @@ export default function Register() {
 	return (
 		<>
 			<p>
-				Qual é sua queixa?
+				Quais são as informações do seu evento?
 			</p>
 			<form onSubmit={handleSubmit}>
 
