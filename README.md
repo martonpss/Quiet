@@ -10,6 +10,12 @@ O gerenciamento do projeto é feito pelo próprio GitHub. As issues abertas são
 * Banco de Dados (Firebase);
 * Hardware.
 
+## Adicionando tags
+
+Do repositório local, use as seguintes linhas de comando:
+`$ git tag -a v0.X -m "Comentário com a principal novidade da release"` <br>
+`$ git push --follow-tags`
+
 ## Boas práticas
 
 * Mantenha os comentários do código, commits e issues abertas em português;
