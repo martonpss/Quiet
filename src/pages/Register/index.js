@@ -32,14 +32,6 @@ export default function Register() {
 					</select>
 				</div>
 
-				<label htmlFor="registerLink">LINK</label>
-				<input
-					type="text"
-					id="registerLink"
-					placeholder="URL do evento"
-					maxLength="2048"
-				/>
-
 				<label htmlFor="registerTitle">TÍTULO *</label>
 				<input
 					type="text"
