@@ -12,7 +12,7 @@ O gerenciamento do projeto é feito pelo próprio GitHub. As issues abertas são
 
 ## Adicionando tags
 
-Do repositório local, use as seguintes linhas de comando:
+Do repositório local, use as seguintes linhas de comando: <br>
 `$ git tag -a v0.X -m "Comentário com a principal novidade da release"` <br>
 `$ git push --follow-tags`
 
