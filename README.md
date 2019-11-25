@@ -7,7 +7,7 @@ Nossa missão é reduzir os conflitos causados pela poluição sonora. Criamos u
 O gerenciamento do projeto é feito pelo próprio GitHub. As issues abertas são atribuídas a um ou mais membros da equipe, e elas são agrupadas em quatro milestones, que são nossos módulos:
 * Frontend (React);
 * Backend (NodeJS);
-* Banco de Dados (Firebase); e
+* Banco de Dados (Firebase);
 * Hardware.
 
 ## Boas práticas
@@ -18,5 +18,5 @@ O gerenciamento do projeto é feito pelo próprio GitHub. As issues abertas são
 ## Observações
 
 Migramos o projeto para esse repositório. É possível acessar os antigos em:
-* https://github.com/naftalima/quiet/
+* https://github.com/naftalima/quiet
 * https://github.com/igormp/quiet-backend
