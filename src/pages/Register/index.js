@@ -54,7 +54,7 @@ export default function Register() {
 					mask="99 99999 9999"
 					maskChar={null}
 					placeholder="Número do Telegram"
-					pattern=".{17,}"
+					pattern=".{13,}"
 					required
 				/>
 
