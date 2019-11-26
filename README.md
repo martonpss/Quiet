@@ -5,15 +5,22 @@ Nossa missão é reduzir os conflitos causados pela poluição sonora. Criamos u
 ## Sobre o gerenciamento do projeto
 
 O gerenciamento do projeto é feito pelo próprio GitHub. As issues abertas são atribuídas a um ou mais membros da equipe, e elas são agrupadas em quatro milestones, que são nossos módulos:
-* Frontend (React);
-* Backend (NodeJS);
-* Banco de Dados (Firebase);
-* Hardware.
+- [ ] Frontend (React);
+- [ ] Backend (NodeJS);
+- [ ] Banco de Dados (Firebase);
+- [ ] Hardware.
 
-## Adicionando tags
+## Configuração do ambiente
+
+Para rodar o projeto na sua máquina, tenha instalados [Node.js](https://nodejs.org/en/download/), [npm](https://www.npmjs.com/get-npm) e [Yarn](https://yarnpkg.com/docs/install).
+* **Passo 1**: clone este repositório na sua máquina;
+* **Passo 2**: rode `$ npm install` na raiz do projeto;
+* **Passo 3**: rode `$ yarn start`, e automaticamente se abrirá uma página no seu navegador.
+
+## Adição de tags
 
 Do repositório local, use as seguintes linhas de comando:
-```
+```bash
 $ git tag -a v0.X -m "Comentário com a principal novidade da release"
 $ git push --follow-tags`
 ```
