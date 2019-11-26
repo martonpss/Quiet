@@ -22,7 +22,7 @@ Para rodar o projeto na sua máquina, tenha instalados [Node.js](https://nodejs.
 Do repositório local, use as seguintes linhas de comando:
 ```bash
 $ git tag -a v0.X -m "Comentário com a principal novidade da release"
-$ git push --follow-tags`
+$ git push --follow-tags
 ```
 
 ## Boas práticas
