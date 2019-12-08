@@ -20,7 +20,8 @@ export default function Home({ history }) {
 			</p>
 
 			<div className="mapContainer">
-				<img src={mapPreview} id="map" alt="Mapa"></img>
+				{/* <img src={mapPreview} id="map" alt="Mapa"></img> */}
+				<script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[AqbhoEBCDoZlA3xZfK3avDb11QKeryn6yAikGe3C27tBggnxiP5JjDZWzr3ONO4L]' async defer></script>
 			</div>
 			
 			<div className="buttonsHome">
