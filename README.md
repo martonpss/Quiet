@@ -23,6 +23,11 @@ Para rodar o projeto na sua máquina, tenha instalados [Node.js](https://nodejs.
 * **Passo 2**: rode `$ npm install` na raiz do projeto;
 * **Passo 3**: rode `$ yarn start`, e automaticamente se abrirá uma página no seu navegador.
 
+Se houver o erro ```npm ERR! Cannot read property 'match' of undefined```, rode o comando:
+```bash
+$ rm -rf package-lock.json node_modules
+```
+
 ### Adição de tags
 
 Do repositório local, use as seguintes linhas de comando:
@@ -34,7 +39,7 @@ $ git push --follow-tags
 ### Boas práticas
 
 * Mantenha os comentários do código, commits e issues abertas em português;
-* Não faça commits na branch principal. Marton está encarregado de passá-los para a branch principal.
+* Não faça commits na branch principal. Ao final do dia, um responsável passará os commits para a branch principal.
 
 <br>
 
