@@ -52,13 +52,14 @@ export default function Register() {
 				<label htmlFor="registerContact">CONTATO *</label>
 				<InputMask
 					mask="99 99999 9999"
+					id="registerContact"
 					maskChar={null}
 					placeholder="Número do Telegram"
 					pattern=".{13,}"
 					required
 				/>
 
-				<button type="submit" className="btn">Enviar</button>
+				<button type="submit" id="registerSubmitButton" className="btn">Enviar</button>
 			</form>
 		</>
 	);
