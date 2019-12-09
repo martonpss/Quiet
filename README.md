@@ -28,6 +28,16 @@ Se houver o erro ```npm ERR! Cannot read property 'match' of undefined```, rode 
 $ rm -rf package-lock.json node_modules
 ```
 
+### Para rodar os testes
+
+Acesse a pasta ```src``` e rode o comando ```mocha```:
+``` bash
+$ cd src
+$ mocha
+```
+
+Atenção para o Chromedrive, ele deve ser compatível com a versão do seu navegador. Faça o download nesse [link](http://chromedriver.storage.googleapis.com/index.html) e substitua pelo existente na pasta ```src```.
+
 ### Adição de tags
 
 Do repositório local, use as seguintes linhas de comando:
