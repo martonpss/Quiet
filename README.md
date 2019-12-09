@@ -7,10 +7,10 @@ Nossa missão é reduzir os conflitos causados pela poluição sonora. Criamos u
 ## Sobre o gerenciamento do projeto
 
 O gerenciamento do projeto é feito pelo próprio GitHub. As issues abertas são atribuídas a um ou mais membros da equipe, e elas são agrupadas em quatro milestones, que são nossos módulos:
-- [ ] Frontend (React);
-- [ ] Backend (NodeJS);
-- [ ] Banco de Dados (Firebase);
-- [ ] Hardware.
+- [ ] [Frontend](https://github.com/martonpss/quiet/);
+- [ ] Backend;
+- [ ] Banco de Dados;
+- [ ] [Hardware](https://github.com/costa402/quiet-esp32).
 
 <br>
 
