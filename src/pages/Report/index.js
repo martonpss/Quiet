@@ -37,7 +37,7 @@ export default function Report() {
 					maxLength="500"
 				/>
 
-				<button type="submit" className="btn">Enviar</button>
+				<button type="submit" className="btn" id="reportSubmitButton">Enviar</button>
 			</form>
 		</>
 	);

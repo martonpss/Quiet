@@ -24,8 +24,8 @@ export default function Home({ history }) {
 			</div>
 			
 			<div className="buttonsHome">
-				<button className="btn" onClick={report}>Denunciar</button>
-				<button className="btn" onClick={register}>Registrar evento</button>
+				<button className="btn" id="reportButton" onClick={report}>Denunciar</button>
+				<button className="btn" id="registerButton" onClick={register}>Registrar evento</button>
 			</div>
 		</>
 	);
